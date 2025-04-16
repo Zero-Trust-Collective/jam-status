@@ -1,75 +1,200 @@
 ---
-# You can also start simply with 'default'
+title: JAM Status
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
+layout: intro
+favicon: ./assets/favicon.png
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
 ---
 
-# Welcome to Slidev
+# JAM Status Update
 
-Presentation slides for developers
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
+0trust3er, TRAM
 
 <style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
 }
 </style>
 
-<!--
-Here is another comment.
--->
+---
+layout: left
+---
+
+# Contents
+
+1. Hello World
+2. Development Journey
+3. TRAM
+4. TVM
+5. Roadmap
+6. Alignment
+7. Q&A
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: section
+---
+# Hello World!
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+---
+layout: section
+---
+# Development Journey
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: two-cols
+---
+# Month 1
+- Study GP
+- Block Serialization
+
+::right::
+
+# Month 2
+- VRF Python Bindings
+- Data Structures
+- Safrole
+
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+
+---
+layout: two-cols
+---
+# Month 3
+- [refactor] stf (move away from redis-om to bytes-native)
+- [refactor] stf (decouple component validations from updates)
+- [stf] reports, assurances, disputes, preimages, authorizations, history, statistics
+- pvm planning
+
+::right::
+
+# Month 4
+- pvm recompiler (basic, no host functions) (appendix A) (passing koute testvectors)
+
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: two-cols
+---
+# Month 5
+- [refactor] pvm (distinct crates for assembler & runtime)
+- general host functions (all)
+- accumulate host functions (some)
+- revisit in-mem DB & state cache architecture
+- [refactor] stf (fully decouple component validations from updates, in-mem db becomes first class citizen, testbench)
+- account cache traits
+- accumulate invocation functions
+
+::right::
+
+# Month 6
+- [refactor] vrf bindings lib (going public)
+- re-read GP, step back to see the forest
+- prepare for Lisbon
+
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: section
+---
+
+# TRAM
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: section
+---
+
+# TVM
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: section
+---
+
+# Roadmap
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: section
+---
+
+# Alignment
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+
+---
+layout: section
+---
+
+# Q&A
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
