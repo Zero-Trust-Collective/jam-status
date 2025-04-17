@@ -8,7 +8,7 @@ transition: slide-left
 
 # JAM Status Update
 
-0trust3er, TRAM
+TRAM, @0trust3r
 
 <style>
 .slidev-layout{
@@ -147,6 +147,34 @@ layout: section
 </style>
 
 ---
+layout: left
+---
+
+# Architecture
+- Python
+- Service-oriented concurrency
+- Operating Modes
+
+<br />
+
+# Status
+- Pre-M1
+
+<br />
+
+# Available Tools
+
+- Python library for vrf verification `jam-vrf`
+
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
 layout: section
 ---
 
@@ -158,6 +186,43 @@ layout: section
   background-size: cover;
 }
 </style>
+
+---
+layout: left
+---
+
+# Architecture
+- Rust
+- Assembler & Runtime
+- JIT Assembly
+- Obsessively Minimized memory IO
+- Implementation-agnostic API
+
+<br />
+
+# Status
+- Passing Koute testvectors
+- Host function testvectors *in-progress*
+- Mock trait implementations for testvectors
+
+<br />
+
+# Available Tools
+
+- Pre-release API Docs
+
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: iframe
+url: https://zero-trust-collective.github.io/tvm/tvm_runtime/traits/index.html
+---
 
 ---
 layout: section
@@ -191,6 +256,8 @@ layout: section
 ---
 
 # Q&A
+
+links: this presentation, jam-vrf, tvm docs, gh org
 
 <style>
 .slidev-layout{
