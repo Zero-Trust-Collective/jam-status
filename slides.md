@@ -64,17 +64,26 @@ layout: section
 ---
 layout: two-cols
 ---
-# Month 1
-- Study GP
+
+# Months 1-2
+- GP Exploration
+
 - Block Serialization
 
-::right::
+- VRF Bindings
 
-# Month 2
-- VRF Python Bindings
 - Data Structures
+
 - Safrole
 
+::right::
+
+# Month 3
+- Decouple STF
+
+- STF components *(reports, assurances, disputes, preimages, authorizations, history, statistics)*
+
+- PVM Exploration
 
 <style>
 .slidev-layout{
@@ -83,20 +92,33 @@ layout: two-cols
 }
 </style>
 
+<!--
+decouple
+- types <-> DB
+- validations <-> updates
+
+recompiler
+- appendix A
+-->
 
 ---
 layout: two-cols
 ---
-# Month 3
-- [refactor] stf (move away from redis-om to bytes-native)
-- [refactor] stf (decouple component validations from updates)
-- [stf] reports, assurances, disputes, preimages, authorizations, history, statistics
-- pvm planning
-
-::right::
 
 # Month 4
-- pvm recompiler (basic, no host functions) (appendix A) (passing koute testvectors)
+- PVM recompiler
+  - Single-pass
+  - No host function support
+
+
+::right::
+
+# Month 5
+- Host functions
+- Revisit in-mem DB & state cache architecture
+- PVM account cache traits
+- Accumulation functions
+
 
 
 <style>
@@ -106,24 +128,26 @@ layout: two-cols
 }
 </style>
 
----
-layout: two-cols
----
-# Month 5
-- [refactor] pvm (distinct crates for assembler & runtime)
-- general host functions (all)
-- accumulate host functions (some)
-- revisit in-mem DB & state cache architecture
-- [refactor] stf (fully decouple component validations from updates, in-mem db becomes first class citizen, testbench)
-- account cache traits
-- accumulate invocation functions
+<!--
+decouple
+- types <-> DB
+- validations <-> updates
 
-::right::
+recompiler
+- appendix A
+
+host functions
+- general
+- accumulate (some)
+-->
+
+---
+layout: left
+---
 
 # Month 6
-- [refactor] vrf bindings lib (going public)
-- re-read GP, step back to see the forest
-- prepare for Lisbon
+- Refactor VRF Bindings
+- JAM big-picture review
 
 
 <style>
@@ -201,15 +225,15 @@ layout: left
 <br />
 
 # Status
-- Passing Koute testvectors
+- Pre-release
+- Passing PVM testvectors
 - Host function testvectors *in-progress*
-- Mock trait implementations for testvectors
 
 <br />
 
 # Available Tools
 
-- Pre-release API Docs
+- Early-preview API Docs
 
 
 <style>
@@ -248,7 +272,7 @@ layout: two-cols
 <br />
 
 # June
-- M1 compliance (filling in host fns & stf gaps)
+- M1 compliance
 - TVM optimizations
 
 <br />
@@ -270,6 +294,10 @@ layout: two-cols
 }
 </style>
 
+<!--
+M1 compliance
+- fill in host fns & stf gaps
+-->
 
 ---
 layout: section
