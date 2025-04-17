@@ -238,6 +238,40 @@ layout: section
 </style>
 
 ---
+layout: two-cols
+---
+
+# May
+- Implement TVM traits for TRAM
+- Perf testing famework
+
+<br />
+
+# June
+- M1 compliance (filling in host fns & stf gaps)
+- TVM optimizations
+
+<br />
+
+# July...
+- Networking
+- Secrets
+- Refinement
+- Auditing
+
+::right::
+
+<img border="rounded" src="/assets/tracers.png" alt="">
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+
+---
 layout: section
 ---
 
