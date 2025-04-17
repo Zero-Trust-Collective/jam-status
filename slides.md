@@ -277,6 +277,31 @@ layout: section
 
 # Alignment
 
+Decentralize, Decentralize, Decentralize
+
+
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+---
+layout: left
+---
+
+# Approach
+- Entrepreneurship
+- Research
+- Public goods
+
+<br />
+
+# Values
+- Less trust, more truth
+- Equal digital agency for all
+
 <style>
 .slidev-layout{
   background-image: url("/assets/background.png");
