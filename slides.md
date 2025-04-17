@@ -316,7 +316,21 @@ layout: section
 
 # Q&A
 
-links: this presentation, jam-vrf, tvm docs, gh org
+<style>
+.slidev-layout{
+  background-image: url("/assets/background.png");
+  background-size: cover;
+}
+</style>
+
+
+---
+
+
+<img border="rounded" src="/assets/qr.png" alt="">
+
+
+
 
 <style>
 .slidev-layout{
